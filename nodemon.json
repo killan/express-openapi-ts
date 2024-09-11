@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "concurrently --names npx,ts-node --prefix-colors cyan,magenta \"npx tsc --watch\" \"ts-node src/index.ts\""
+}

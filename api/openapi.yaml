@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  description: Folklopedia Backend API
+  version: 0.1.0
+  title: Folklopedia Backend API
+paths:
+  /test:
+    get:
+      summary: Get ...
+      description: Get ...
+      operationId: getCore
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/item'
+servers:
+  - url: /api/v1.0
+components:
+  schemas:
+    item:
+      type: object
+      properties:
+        id:
+          type: number
