@@ -1,4 +1,4 @@
-# express-openapi
+# express-openapi-ts
 NodeJS/TS/Express/OpenAPI/Swagger
 
 ## Install
